@@ -1,0 +1,727 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Mendeleiev</title>
+	<style>
+
+	body {
+		background-color: #f1f2f6;
+	}
+	.name {
+		margin-top: 0px;
+		text-align: center;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		padding-top: 20px;
+		padding-bottom: 10px;
+		background-color: #1e90ff;
+		box-shadow: 0 2px 5px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.4);
+		text-shadow: 0 2px 5px rgba(0,0,0,0.16);
+		margin-right: 100px;
+		margin-left: 100px;
+		letter-spacing: 5px;
+		font-weight: 100;
+		font-family: Papyrus;
+		color: #f1f2f6;
+	}
+	.container {
+		padding-right: 30px;
+		padding-left: 30px;
+		display: grid;
+		grid-template-columns: repeat(18, 1fr);
+		grid-column-gap: 6px;
+		grid-row-gap: 6px;
+		grid-auto-rows: 100px;
+	}
+	.i0 {
+		grid-row: 1 / 4;
+		grid-column: 3 / 13;
+		width: 95%;
+		height: 95%;
+		align-self: center;
+		justify-self: center;
+	}
+
+	.item {
+		display: inline-grid;
+		grid-template-rows: repeat(3, 1fr);
+		border: 1px solid black;
+		box-shadow: 0 2px 5px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.4);
+	}
+
+	.h {
+		background-color: #808e9b;
+	}
+
+	.i1 {
+		background-color: #ff3f34;
+	}
+
+	.special {
+		grid-column: 12 / 18;
+		grid-row: 1;
+		border: none;
+		box-shadow: none;
+	}
+
+	.special1 {
+		border: none;
+		box-shadow: none;
+	}
+
+	.special2 {
+		background-color: #CAD3C8;
+		color: #2C3A47;
+		grid-column: 3;
+		grid-row: 6 / span 4;
+		display: inline-grid;
+		grid-template-rows: repeat(4, 1fr);
+	}
+
+	.special3 {
+		grid-row: 8 / span 2;
+		grid-column: 1 / span 2;
+		border: none;
+		box-shadow: none;
+	}
+
+	.i2 {
+		background-color: #FC427B;
+	}
+
+	.i3 {
+		background-color: #fff200;
+	}
+
+	.i4 {
+		background-color: #c56cf0;
+	}
+
+	.i5 {
+		background-color: #32ff7e;
+	}
+
+	.i6 {
+		background-color: #4bcffa;
+	}
+
+	.supp {
+		grid-column: 4;
+		grid-row: 8;
+	}
+
+	.i8 {
+		background-color: #58B19F;
+	}
+
+	.i9 {
+		background-color: #BDC581;
+	}
+	</style>	
+</head>
+
+<body>
+	<h1 class="name">Mendeleiev by mrychkov</h1>
+	<div class="container" contenteditable="true">
+		<img class="i0" src="http://www.chem.ucla.edu/~harding/IGOC/N/norepinephrine03.png" alt="">
+		<div class="item h">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">1</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">H</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">1</p>
+		</div>
+		<div class="item special1"></div>
+		<div class="item special"></div>
+		<div class="item i2">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">2</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">He</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">4</p>
+		</div>
+		<div class="item i3">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">3</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Li</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">6</p>
+		</div>
+		<div class="item i4">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">4</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Be</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">9</p>
+		</div>
+		<div class="item i5">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">5</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">B</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">11</p>
+		</div>
+		<div class="item i5">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">6</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">C</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">12</p>
+		</div>
+		<div class="item i5">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">7</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">N</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">14</p>
+		</div>
+		<div class="item i5">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">8</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">O</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">16</p>
+		</div>
+		<div class="item i5">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">9</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">F</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">19</p>
+		</div>
+		<div class="item i2">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">10</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Ne</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">20</p>
+		</div>
+		<div class="item i3">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">11</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Na</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">23</p>
+		</div>
+		<div class="item i4">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">12</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Mg</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">24</p>
+		</div>
+		<div class="item i6">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">13</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Al</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">27</p>
+		</div>
+		<div class="item i5">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">14</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Si</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">28</p>
+		</div>
+		<div class="item i5">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">15</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">P</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">31</p>
+		</div>
+		<div class="item i5">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">16</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">S</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">32</p>
+		</div>
+		<div class="item i5">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">17</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Cl</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">35</p>
+		</div>
+		<div class="item i2">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">18</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Ar</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">40</p>
+		</div>
+		<div class="item i3">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">19</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">K</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">39</p>
+		</div>
+		<div class="item i4">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">20</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Ca</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">40</p>
+		</div>
+		<div class="item i1">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">21</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Sc</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">45</p>
+		</div>
+		<div class="item i1">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">22</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Ti</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">48</p>
+		</div>
+		<div class="item i1">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">23</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">V</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">51</p>
+		</div>
+		<div class="item i1">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">24</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Cr</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">52</p>
+		</div>
+		<div class="item i1">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">25</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Mn</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">55</p>
+		</div>
+		<div class="item i1">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">26</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Fe</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">56</p>
+		</div>
+		<div class="item i1">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">27</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Co</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">59</p>
+		</div>
+		<div class="item i1">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">28</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Ni</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">59</p>
+		</div>
+		<div class="item i1">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">29</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Cu</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">64</p>
+		</div>
+		<div class="item i6">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">30</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Zn</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">65</p>
+		</div>
+		<div class="item i6">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">31</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Ga</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">70</p>
+		</div>
+		<div class="item i6">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">32</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Ge</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">73</p>
+		</div>
+		<div class="item i5">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">33</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">As</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">75</p>
+		</div>
+		<div class="item i5">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">34</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Se</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">79</p>
+		</div>
+		<div class="item i5">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">35</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Br</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">80</p>
+		</div>
+		<div class="item i2">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">36</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Kr</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">84</p>
+		</div>
+		<div class="item i3">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">37</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Rb</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">85</p>
+		</div>
+		<div class="item i4">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">38</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Sr</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">88</p>
+		</div>
+		<div class="item i1">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">39</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Y</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">89</p>
+		</div>
+		<div class="item i1">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">40</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Zr</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">91</p>
+		</div>
+		<div class="item i1">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">41</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Nb</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">93</p>
+		</div>
+			<div class="item i1">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">42</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Mo</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">96</p>
+		</div>
+			<div class="item i1">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">43</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Tc</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">(98)</p>
+		</div>
+			<div class="item i1">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">44</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Ru</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">101</p>
+		</div>
+		<div class="item i1">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">45</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Rh</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">103</p>
+		</div>
+		<div class="item i1">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">46</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Pd</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">106</p>
+		</div>
+			<div class="item i1">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">47</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Ag</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">108</p>
+		</div>
+		<div class="item i6">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">48</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Cd</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">112</p>
+		</div>
+		<div class="item i6">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">49</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">In</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">115</p>
+		</div>
+		<div class="item i6">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">50</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Sn</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">119</p>
+		</div>
+		<div class="item i6">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">51</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Sb</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">121</p>
+		</div>
+		<div class="item i5">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">52</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Te</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">128</p>
+		</div>
+		<div class="item i5">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">53</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">I</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">127</p>
+		</div>
+		<div class="item i2">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">54</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Xe</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">131</p>
+		</div>
+		<div class="item i3">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">55</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Cs</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">133</p>
+		</div>
+		<div class="item i4">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">56</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Ba</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">137</p>
+		</div>
+		<div class="item special2">
+			<p style="grid-row: 3; text-align: center; margin: 0; align-self: center;">57-71--> </p>
+			<p style="grid-row: 4; text-align: center; margin: 0; align-self: center;">89-103--> </p>
+		</div>
+		<div class="item i1">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">72</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Hf</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">178</p>
+		</div>
+		<div class="item i1">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">73</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Ta</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">181</p>
+		</div>
+		<div class="item i1">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">74</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">W</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">184</p>
+		</div>
+		<div class="item i1">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">75</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Re</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">186</p>
+		</div>
+		<div class="item i1">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">76</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Os</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">190</p>
+		</div>
+		<div class="item i1">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">77</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Ir</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">192</p>
+		</div>
+		<div class="item i1">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">78</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Pt</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">195</p>
+		</div>
+		<div class="item i1">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">79</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Au</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">197</p>
+		</div>
+		<div class="item i6">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">80</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Hg</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">200</p>
+		</div>
+		<div class="item i6">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">81</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Tl</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">204</p>
+		</div>
+		<div class="item i6">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">82</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Pb</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">207</p>
+		</div>
+		<div class="item i6">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">83</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Bi</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">209</p>
+		</div>
+		<div class="item i6">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">84</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Po</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">209</p>
+		</div>
+		<div class="item i5">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">85</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">At</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">210</p>
+		</div>
+		<div class="item i2">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">86</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Rn</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">(222)</p>
+		</div>
+		<div class="item i3">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">87</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Fr</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">(223)</p>
+		</div>
+		<div class="item i4">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">88</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Ra</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">(226)</p>
+		</div>
+		
+		<div class="item i1">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">104</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Hf</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">178</p>
+		</div>
+		<div class="item i1">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">105</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Hf</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">178</p>
+		</div>
+		<div class="item i1">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">106</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Hf</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">178</p>
+		</div>
+		<div class="item i1">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">107</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Hf</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">178</p>
+		</div>
+		<div class="item i1">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">108</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Hf</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">178</p>
+		</div>
+		<div class="item i1">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">109</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Hf</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">178</p>
+		</div>
+		<div class="item i1">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">110</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Hf</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">178</p>
+		</div>
+		<div class="item i1">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">111</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Hf</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">178</p>
+		</div>
+		<div class="item i6">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">112</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Po</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">209</p>
+		</div>
+		<div class="item i6">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">113</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Po</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">209</p>
+		</div>
+		<div class="item i6">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">114</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Po</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">209</p>
+		</div>
+		<div class="item i6">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">115</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Po</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">209</p>
+		</div>
+		<div class="item i6">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">116</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Po</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">209</p>
+		</div>
+		<div class="item i6">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">117</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px;">Po</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">209</p>
+		</div>
+		<div class="item i2">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">118</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Uuo</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">(294)</p>
+		</div>
+		<div class="special3"></div>
+		<div class="item i8 supp">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">57</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Uuo</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;"></p>
+		</div>
+		<div class="item i8">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">58</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Uuo</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">(294)</p>
+		</div>
+		<div class="item i8">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">59</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Uuo</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">(294)</p>
+		</div>
+		<div class="item i8">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">60</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Uuo</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">(294)</p>
+		</div>
+		<div class="item i8">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">61</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Uuo</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">(294)</p>
+		</div>
+		<div class="item i8">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">62</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Uuo</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">(294)</p>
+		</div>
+		<div class="item i8">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">63</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Uuo</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">(294)</p>
+		</div>
+		<div class="item i8">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">64</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Uuo</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">(294)</p>
+		</div>
+		<div class="item i8">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">65</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Uuo</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">(294)</p>
+		</div>
+		<div class="item i8">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">66</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Uuo</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">(294)</p>
+		</div>
+		<div class="item i8">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">67</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Uuo</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">(294)</p>
+		</div>
+		<div class="item i8">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">68</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Uuo</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">(294)</p>
+		</div>
+		<div class="item i8">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">69</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Uuo</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">(294)</p>
+		</div>
+		<div class="item i8">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">70</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Uuo</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">(294)</p>
+		</div>
+		<div class="item i8">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">71</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Uuo</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">(294)</p>
+		</div>
+		<div class="item i9">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">89</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Uuo</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">(294)</p>
+		</div>
+		<div class="item i9">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">90</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Uuo</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">(294)</p>
+		</div>
+		<div class="item i9">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">91</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Uuo</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">(294)</p>
+		</div>
+		<div class="item i9">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">92</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Uuo</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">(294)</p>
+		</div>
+		<div class="item i9">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">93</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Uuo</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">(294)</p>
+		</div>
+		<div class="item i9">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">94</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Uuo</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">(294)</p>
+		</div>
+		<div class="item i9">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">95</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Uuo</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">(294)</p>
+		</div>
+		<div class="item i9">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">96</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Uuo</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">(294)</p>
+		</div>
+		<div class="item i9">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">97</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Uuo</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">(294)</p>
+		</div>
+		<div class="item i9">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">98</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Uuo</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">(294)</p>
+		</div>
+		<div class="item i9">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">99</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Uuo</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">(294)</p>
+		</div>
+		<div class="item i9">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">100</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Uuo</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">(294)</p>
+		</div>
+		<div class="item i9">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">101</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Uuo</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">(294)</p>
+		</div>
+		<div class="item i9">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">102</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Uuo</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">(294)</p>
+		</div>
+		<div class="item i9">
+			<p style="grid-row: 1; text-align: right; margin: 0; align-self: center; padding-right: 7px;">103</p>
+			<p style="grid-row: 2; text-align: center; margin: 0; align-self: center; font-weight: bold; font-size: 30px; ">Uuo</p>
+			<p style="grid-row: 3; text-align: left; margin: 0; align-self: center; padding-left: 7px;">(294)</p>
+		</div>
+	</div>
+</body>
+</html>

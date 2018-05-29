@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>B.A.BA</title>
+
+	<style>
+		@media screen and (max-width: 1180px) {
+    		.i1 {
+    			order: 1 !important;
+    		}
+
+    		.i3 {
+    			order: 2 !important;
+    		}
+    		.i2 {
+    			order: 3 !important;
+    		}
+    		.i4 {
+    			order: 4 !important;
+    		}
+		}
+		body {
+			background-color: pink;
+		}
+		.title {
+			color: white;
+			text-align: center;
+			padding: 50px 50px;
+		}
+		.image {
+	  		display: flex;
+	  		flex-flow: row wrap;
+	  		position: relative;
+	  		justify-content: space-around;
+	  		padding-bottom: 50px;
+
+		}
+		.i1 {
+			width: auto;
+  			height: auto;
+			flex-basis: 50%;
+			margin: 35px;
+			flex: 0 1 calc(50% - 70px);
+			order: 1;
+		}
+		.i2 {
+			width: auto;
+  			height: auto;
+			margin: 35px;
+			flex-basis: 50%;
+			flex: 0 1 calc(50% - 70px);
+			order: 2;
+		}
+		.i3 {
+			width: 50%;
+			flex-basis: 50%;
+			margin: auto;
+			flex: 0 1 calc(50% - 20px);
+			order: 3;
+			text-align: center;
+		}
+		.i4 {
+			margin: auto;
+			flex-basis: 50%;
+			flex: 0 1 calc(50% - 20px);
+			order: 4;
+			text-align: center;
+		}
+		.copyright {
+			color: #b71540;
+			padding-right: 20px;
+			text-align: right;
+			font-style: italic;
+			font-family: Courier New, monospace;
+		}
+		hr {
+			color: #b71540;
+			background-color: #b71540;
+			height: 3px;
+			border: none;
+		}
+	</style>
+</head>
+<body>
+	<h1 class="title">éeee tel est mon titre</h1>
+	<div class="image">
+		<img class="item i1" src="https://www.shareicon.net/data/512x512/2015/09/19/642911_online_512x512.png">
+		<a class="item i3" href="https://amazon.com">visit amazon</a>
+		<img class="item i2" src="https://www.shareicon.net/data/512x512/2016/10/18/844598_ebay_512x512.png">
+		<a class="item i4" href="https://ebay.com">visit ebay</a>
+	</div>
+	<footer>
+		<hr />
+		<p class="copyright">&copy; mrychkov 2018</p>
+	</footer>
+</body>
+</html>
